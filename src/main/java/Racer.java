@@ -23,7 +23,7 @@ public class Racer implements Runnable{
 		this.currentPositions = currentPositions;
 		this.results = results;
 		random = new Random();
-		averageSpeedAdjustmentFactor = random.nextInt(30) - 10;
+		averageSpeedAdjustmentFactor = random.nextInt(30) - 10; //Random number between -10 and +20
 	}
 	
 	private double getMaxSpeed() {
